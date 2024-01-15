@@ -341,10 +341,12 @@ p {
     height: 500px;
     width: 100%;
 }
+
 .deals-and-discount-section {
     display: flex;
     align-items: center;
 }
+
 .deals-and-discount-section>.btn-primary {
     padding: 0;
     margin-top: 48px;
@@ -415,6 +417,23 @@ p {
     gap: 24px;
 }
 
+
+
+/* get lost section  */
+#popular-section .bullet-point ul li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+#popular-section h1{
+    padding-right: 84px;
+    line-height: 60px;
+}
+
+#popular-bullet{
+    margin-bottom: 32px;
+}
 @media screen and (max-width:600px) {
     .container {
         max-width: 560px;
