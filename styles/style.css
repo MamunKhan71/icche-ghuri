@@ -191,12 +191,10 @@ input {
     align-items: center;
     gap: 50px;
 }
-.tour-first-section h1{
+.tour-first-section h1,  p{
     margin-bottom: 24px;
 }
-.popular-tour-section div{
-    margin-top: 24px;
-}
+
 .popular-tour-section .bullet-point ul li {
     list-style-position: inside;
     color: rgba(19, 19, 24, 0.70);
