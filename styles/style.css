@@ -689,17 +689,12 @@ p {
     }
 
     .deals-and-discount-box {
-        background: url('../Images/Group\ 39.png');
         width: calc(100% - 40px);
         border-radius: 16px;
-        height: 500px;
-        position: relative;
     }
 
     #discount-box-2 {
-        background: url('../Images/Group\ 40.png');
         width: calc(100% - 40px);
-        height: 500px;
     }
 
     .deals-and-discount-section {
@@ -714,7 +709,6 @@ p {
         width: calc(303px - 40px);
         padding: 20px;
         height: auto;
-        position: absolute;
         top: calc(100%);
         right: 50%;
         transform: translate(50%, calc(-100% - 16px));
@@ -732,16 +726,12 @@ p {
     }
 
     .deals-text h1 {
-        color: #131318;
         font-size: 20px;
-        font-weight: 800;
         margin-top: 26px;
         margin-bottom: 16px;
     }
     .deals-text h2 {
-        color: #FF5400;
         font-size: 16px;
-        font-weight: 800;
         margin-bottom: 16px;
     }
 
@@ -760,16 +750,8 @@ p {
     .day{
         width: 100%;
     }
-    .day,
-    .location,
-    .person {
-        display: flex;
-        gap: 8px;
-    }
-
     .heading {
-        display: flex;
-        gap: 23px;
+        gap: 16px;
         align-items: left;
         padding: 0;
         gap: 16px;
@@ -779,7 +761,6 @@ p {
 
     /* get lost section  */
     #popular-section .bullet-point ul li {
-        color: #131318;
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
