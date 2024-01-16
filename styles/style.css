@@ -150,6 +150,9 @@ select {
     height: 52px;
     border: none;
 }
+.form-container select{
+    padding-left: 20px;
+}
 
 .form-container .btn-primary {
     color: var(--white);
@@ -565,10 +568,10 @@ p {
     width: 100%;
 }
 
-::placeholder {
+::placeholder{
     padding-left: 20px;
-
 }
+
 
 
 .newsletter-pic {
