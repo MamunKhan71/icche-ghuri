@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 :root {
     --btn-primary-color: #FF5400;
     --text-color: rgba(19, 19, 24, 0.70);
@@ -65,7 +65,8 @@ h3 {
     color: var(--btn-primary-color)
 }
 
-.first-section {
+.first-section,
+.footer-first-section {
     display: flex;
     gap: 16px;
     align-items: center;
@@ -567,6 +568,44 @@ h3 {
     font-weight: 400;
 }
 
+/* footer section  */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+}
+
+.footer-first-section {
+    justify-content: center;
+}
+
+.footer-first-section h1 {
+    margin-bottom: 15px;
+}
+
+.footer-container p {
+    margin-bottom: 33px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.footer-container hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-container>span {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-container {
+    padding: 110px 150px 110px 150px;
+    text-align: center;
+}
+
+
 @media screen and (max-width:600px) {
     .container {
         max-width: 560px;
@@ -964,7 +1003,8 @@ h3 {
         width: 100%;
         height: 300px;
     }
-    .newsletter-pic img{
+
+    .newsletter-pic img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -981,6 +1021,7 @@ h3 {
         border-radius: 16px;
         background: #FF5400;
     }
+
     .n-box h2 {
         font-size: 21.138px;
     }
