@@ -437,15 +437,22 @@ p {
     padding-right: 84px;
     line-height: 60px;
 }
-
+.popular-first-section p{
+    text-align: left;
+    width: 100%;
+}
 #popular-bullet {
     margin-bottom: 32px;
 }
 
 .image-container {
     position: relative;
+    width: 100%;
+    padding: 20px;
 }
-
+.image-container img{
+    width: 100%;
+}
 .image-container h1 {
     position: absolute;
     top: 50%;
@@ -810,7 +817,19 @@ p {
     #popular-bullet {
         margin-bottom: 32px;
     }
-
+    .image-container {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+    }
+    .image-container img{
+        width: 100%;
+    }
+    .image-container h1 {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
 
 
 
